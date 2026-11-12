@@ -1,14 +1,20 @@
 # Manutenção: PM
 
-Este setor cobre a manutenção de equipamentos e instalações.
+Este setor cobre a manutenção de equipamentos e instalações. Os códigos estão em [dados/pm.json](../dados/pm.json).
 
-## Módulo previsto
+## Fluxo: notificação à conclusão
 
-- **PM (Plant Maintenance)**: equipamentos, locais técnicos, ordens de manutenção e planos preventivos.
+1. Uma falha é registrada como notificação (IW21).
+2. A notificação gera uma ordem de manutenção (IW34 ou IW31).
+3. Os apontamentos registram o tempo e o trabalho realizado (IW41).
+4. A ordem é concluída com confirmação geral (IW42).
 
-## Conteúdo planejado
+## Conceitos-chave
 
-- Ciclo de uma ordem de manutenção, do aviso à conclusão.
-- Planos de manutenção preventiva.
+- **Equipamento e local técnico**: objetos que recebem a manutenção (IE01, IL01).
+- **Plano de manutenção preventiva**: programa as manutenções periódicas (IP10).
 
-A ser preenchido. Contribuições são bem-vindas.
+## Próximos passos
+
+- Incluir o ciclo completo com exemplos.
+- Acrescentar listas de tarefas e medições.

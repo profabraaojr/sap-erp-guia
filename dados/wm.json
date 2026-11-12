@@ -1,0 +1,10 @@
+{
+  "modulo": "WM / EWM",
+  "setor": "logistica",
+  "nome": "Gestão de Armazém",
+  "atualizado_em": "2026-11-12",
+  "aviso": "Pesquisa incompleta. O WM clássico e o EWM têm conjuntos de transações diferentes. Ainda não há lista validada. Pendente.",
+  "transacoes": [
+    {"codigo": "/SCWM/PRDI", "descricao": "Processar entrada de remessa no EWM", "area": "EWM-Recebimento", "confianca": "baixa", "observacao": "Encontrado em uma única fonte. Confirmar."}
+  ]
+}

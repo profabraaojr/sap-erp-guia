@@ -1,0 +1,31 @@
+{
+  "modulo": "PS",
+  "setor": "projetos",
+  "nome": "Sistema de Projetos (estrutura, redes e orçamento)",
+  "atualizado_em": "2026-11-12",
+  "aviso": "Códigos conferidos em fontes públicas. A descrição de CJ01 varia entre fontes. Confirme no seu sistema.",
+  "transacoes": [
+    {"codigo": "CJ20N", "descricao": "Construtor de projetos (ferramenta principal, reúne a maior parte das funções)", "area": "PS-PRO", "confianca": "alta"},
+    {"codigo": "CJ01", "descricao": "Criar estrutura do projeto (WBS)", "area": "PS-PRO", "confianca": "media", "observacao": "A descrição varia entre fontes: alguns sites a tratam como criação de definição de projeto."},
+    {"codigo": "CJ02", "descricao": "Alterar estrutura do projeto (WBS)", "area": "PS-PRO", "confianca": "alta"},
+    {"codigo": "CJ03", "descricao": "Exibir estrutura do projeto (WBS)", "area": "PS-PRO", "confianca": "media"},
+    {"codigo": "CJ08", "descricao": "Exibir definição do projeto", "area": "PS-PRO", "confianca": "media"},
+    {"codigo": "CJ11", "descricao": "Criar elemento WBS", "area": "PS-PRO", "confianca": "alta"},
+    {"codigo": "CJ12", "descricao": "Alterar elemento WBS", "area": "PS-PRO", "confianca": "alta"},
+    {"codigo": "CJ13", "descricao": "Exibir elemento WBS", "area": "PS-PRO", "confianca": "alta"},
+    {"codigo": "CJ2B", "descricao": "Quadro de planejamento do projeto (alterar datas e dados)", "area": "PS-PRO", "confianca": "media"},
+    {"codigo": "CJ30", "descricao": "Criar orçamento original", "area": "PS-BUD", "confianca": "media"},
+    {"codigo": "CJ31", "descricao": "Exibir orçamento original", "area": "PS-BUD", "confianca": "media"},
+    {"codigo": "CJ3B", "descricao": "Exibir documento de orçamento", "area": "PS-BUD", "confianca": "media"},
+    {"codigo": "CJ41", "descricao": "Exibir planejamento de custos", "area": "PS-CST", "confianca": "media"},
+    {"codigo": "CN01", "descricao": "Criar rede padrão", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN02", "descricao": "Alterar rede padrão", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN03", "descricao": "Exibir rede padrão", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN21", "descricao": "Criar rede do projeto", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN22", "descricao": "Alterar rede do projeto", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN23", "descricao": "Exibir rede do projeto", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN24", "descricao": "Agendamento geral da rede", "area": "PS-NET", "confianca": "media"},
+    {"codigo": "CN25", "descricao": "Confirmar conclusão de atividades na rede", "area": "PS-NET", "confianca": "alta"},
+    {"codigo": "CN41N", "descricao": "Visão geral da estrutura do projeto", "area": "PS-PRO", "confianca": "alta"}
+  ]
+}

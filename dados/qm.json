@@ -1,0 +1,30 @@
+{
+  "modulo": "QM",
+  "setor": "qualidade",
+  "nome": "Gestão da Qualidade",
+  "atualizado_em": "2026-11-12",
+  "aviso": "Códigos conferidos em fontes públicas. A descrição de QA32 varia entre fontes. Confirme no seu sistema.",
+  "transacoes": [
+    {"codigo": "QA00", "descricao": "Menu de inspeção de qualidade", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA01", "descricao": "Criar lote de inspeção", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA02", "descricao": "Alterar lote de inspeção", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA03", "descricao": "Exibir lote de inspeção", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA08", "descricao": "Processamento coletivo de configuração de inspeção", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QA10", "descricao": "Acionar decisão de uso automática", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QA11", "descricao": "Registrar decisão de uso do lote", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA12", "descricao": "Alterar decisão de uso com histórico", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA13", "descricao": "Exibir decisão de uso", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QA16", "descricao": "Decisão de uso coletiva", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QA32", "descricao": "Alterar dados do lote de inspeção (seleção de lotes)", "area": "QM-IM", "confianca": "media", "observacao": "A descrição varia entre fontes."},
+    {"codigo": "QA33", "descricao": "Exibir dados do lote de inspeção", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QA40", "descricao": "Decisão de uso automática para inspeções de produção", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QE01", "descricao": "Registrar resultados de características", "area": "QM-IM", "confianca": "alta"},
+    {"codigo": "QE51N", "descricao": "Registrar resultados do lote de inspeção", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QF01", "descricao": "Registrar dados de defeito", "area": "QM-IM", "confianca": "media"},
+    {"codigo": "QM01", "descricao": "Criar notificação de qualidade", "area": "QM-QN", "confianca": "media"},
+    {"codigo": "QM02", "descricao": "Alterar notificação de qualidade", "area": "QM-QN", "confianca": "media"},
+    {"codigo": "QM10", "descricao": "Alterar lista de notificações de qualidade", "area": "QM-QN", "confianca": "alta"},
+    {"codigo": "QM11", "descricao": "Exibir lista de notificações de qualidade", "area": "QM-QN", "confianca": "media"},
+    {"codigo": "QM50", "descricao": "Linha do tempo de notificações de qualidade", "area": "QM-QN", "confianca": "media"}
+  ]
+}

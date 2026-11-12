@@ -1,0 +1,15 @@
+{
+  "modulo": "TM",
+  "setor": "logistica",
+  "nome": "Gestão de Transportes (SAP TM)",
+  "atualizado_em": "2026-11-12",
+  "aviso": "Dados parciais. Os códigos do TM têm prefixo /SCMTMS/ e dependem da versão e da instalação. Confirme no seu sistema.",
+  "transacoes": [
+    {"codigo": "/SCMTMS/", "descricao": "Abrir a interface principal do TM", "area": "TM-CF", "confianca": "media"},
+    {"codigo": "/SCMTMS/LOC3", "descricao": "Criar e gerenciar locais (origens e destinos)", "area": "TM-MD", "confianca": "media"},
+    {"codigo": "/SCMTMS/TRQ", "descricao": "Criar e gerenciar requisições de transporte", "area": "TM-PL", "confianca": "media"},
+    {"codigo": "/SCMTMS/DTR", "descricao": "Exibir requisição de transporte recebida do ERP ou de outro sistema", "area": "TM-PL", "confianca": "media"},
+    {"codigo": "/SCMTMS/FWO", "descricao": "Criar e alterar ordens de frete (execução do transporte)", "area": "TM-EX", "confianca": "media"},
+    {"codigo": "/SCMTMS/SFIR TRANSFER BATCH", "descricao": "Transferir ordens de frete para liquidação de custos (executado via SE38)", "area": "TM-FI", "confianca": "baixa", "observacao": "Programa executado via SE38, não transação direta."}
+  ]
+}

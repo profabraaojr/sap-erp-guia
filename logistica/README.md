@@ -1,17 +1,23 @@
 # Logística: MM, WM e TM
 
-Este setor reúne a cadeia de suprimentos, do pedido de compra ao estoque e ao transporte.
+Este setor reúne a cadeia de suprimentos, do pedido de compra ao estoque e ao transporte. Os códigos estão em [dados/](../dados/).
 
-## Módulos previstos
+## Módulos
 
-- **MM (Materials Management)**: compras, recebimento de mercadorias, estoque e avaliação de materiais.
-- **WM (Warehouse Management)**: gestão de armazém, com endereçamento, separação e movimentação.
-- **TM (Transportation Management)**: planejamento e execução de fretes e rotas.
+- **MM (Materials Management)**, com dados em [mm.json](../dados/mm.json): compras, entrada de mercadoria, estoque e verificação de faturas. Cobertura boa para estudo introdutório.
+- **TM (Transportation Management)**, com dados em [tm.json](../dados/tm.json): planejamento e execução de fretes. Cobertura parcial, pois os códigos usam o prefixo /SCMTMS/ e dependem da versão.
+- **WM/EWM (Warehouse Management)**, com dados em [wm.json](../dados/wm.json): gestão de armazém. Pendente. O WM clássico e o EWM têm conjuntos de transações diferentes, e ainda não há lista validada.
 
-## Conteúdo planejado
+## Fluxo: compra ao estoque (MM)
 
-- Fluxo compra a recebimento: requisição, pedido de compra, entrada de mercadoria e fatura.
-- Tipos de movimentação e seus efeitos no estoque.
-- Transações e fórmulas de avaliação de estoque.
+1. Requisição de compra (ME51N), que pode gerar pedido automaticamente (ME59N).
+2. Pedido de compra (ME21N).
+3. Entrada da mercadoria (MIGO).
+4. Lançamento da fatura do fornecedor com verificação contra o pedido (MIRO).
+5. Consulta do estoque (MMBE e MB52).
 
-A ser preenchido. Contribuições são bem-vindas.
+## Próximos passos
+
+- Concluir o WM/EWM com transações validadas.
+- Ampliar o TM com um fluxo completo, do pedido de transporte à liquidação.
+- Acrescentar movimentações e seus efeitos no estoque.

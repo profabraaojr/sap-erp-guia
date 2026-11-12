@@ -2,34 +2,38 @@
 
 Repositório aberto para quem quer aprender SAP a partir dos processos de negócio: financeiro, logística, vendas, produção, manutenção, RH, qualidade e projetos.
 
-A organização segue o ERP: cada pasta é um setor da empresa e reúne os módulos, as transações (T-codes), as fórmulas e as funções que ele usa no dia a dia.
+A organização segue o ERP: cada pasta é um setor da empresa e traz os fluxos, os conceitos e as transações usadas no dia a dia. Os códigos estão também em formato de dados, na pasta [dados](dados/), para uso em sites, planilhas e ferramentas.
 
 ## Como usar
 
 1. Escolha o setor que você quer estudar.
-2. Leia a visão geral do módulo e o fluxo do processo.
+2. Leia o fluxo do processo e os conceitos-chave.
 3. Use as transações indicadas para praticar em um ambiente de treinamento SAP.
 4. Confira sempre o código na sua versão do sistema (transação SE93 ou tabela TSTC), porque nomes e telas mudam entre versões.
 
 ## Estrutura
 
-| Setor | Módulos | Situação |
-|---|---|---|
-| [financeiro](financeiro/) | FI (Contabilidade Financeira), CO (Controladoria) | Piloto em produção |
-| [logistica](logistica/) | MM (Materiais), WM (Gestão de Armazém), TM (Gestão de Transportes) | Planejado |
-| [vendas](vendas/) | SD (Vendas e Distribuição) | Planejado |
-| [producao](producao/) | PP (Planejamento e Produção) | Planejado |
-| [manutencao](manutencao/) | PM (Gestão de Manutenção) | Planejado |
-| [rh](rh/) | HCM (Gestão de Capital Humano) | Planejado |
-| [qualidade](qualidade/) | QM (Gestão da Qualidade) | Planejado |
-| [projetos](projetos/) | PS (Sistema de Projetos) | Planejado |
+| Setor | Módulos | Transações | Situação |
+|---|---|---|---|
+| [financeiro](financeiro/) | FI, CO | 41 | Fluxos e transações principais |
+| [logistica](logistica/) | MM, TM, WM/EWM | 30, 6, 1 | MM bom; TM parcial; WM pendente |
+| [vendas](vendas/) | SD | 27 | Fluxos e transações principais |
+| [producao](producao/) | PP | 29 | Fluxos e transações principais |
+| [manutencao](manutencao/) | PM | 30 | Fluxos e transações principais |
+| [rh](rh/) | HCM | 20 | Fluxos e transações principais |
+| [qualidade](qualidade/) | QM | 21 | Fluxos e transações principais |
+| [projetos](projetos/) | PS | 22 | Fluxos e transações principais |
+
+Os níveis de confiança e os limites de cada arquivo estão em [dados/README.md](dados/README.md).
 
 ## Fontes
 
-O conteúdo é escrito com base em documentação aberta e no próprio sistema SAP. Não reproduzimos manuais protegidos por direitos autorais. As fontes de referência são:
+O conteúdo foi escrito a partir de documentação aberta e de referências públicas sobre SAP. As descrições são redigidas neste repositório, e não copiadas de manuais ou de listas protegidas. As fontes de referência são:
 
 - SAP Help Portal (help.sap.com), documentação oficial dos módulos.
 - Transação SE93 e tabela TSTC do próprio sistema, para conferir códigos de transação.
+
+Os códigos foram cruzados em várias fontes públicas. Quando as fontes divergem, o item recebe nível de confiança média e uma observação.
 
 ## Contribuir
 

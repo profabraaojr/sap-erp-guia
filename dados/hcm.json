@@ -1,0 +1,29 @@
+{
+  "modulo": "HCM (HR)",
+  "setor": "rh",
+  "nome": "Gestão de Pessoas (dados mestres, tempo e folha)",
+  "atualizado_em": "2026-11-12",
+  "aviso": "Códigos conferidos em fontes públicas. A descrição de alguns códigos varia entre versões. Confirme no seu sistema.",
+  "transacoes": [
+    {"codigo": "PA10", "descricao": "Exibir arquivo de pessoal do colaborador", "area": "PA-Dados mestres", "confianca": "alta"},
+    {"codigo": "PA20", "descricao": "Exibir dados mestres de RH (somente leitura)", "area": "PA-Dados mestres", "confianca": "alta"},
+    {"codigo": "PA30", "descricao": "Manter dados mestres de RH (inclusão e alteração)", "area": "PA-Dados mestres", "confianca": "alta"},
+    {"codigo": "PA40", "descricao": "Registrar ações de pessoal (contratação, promoção, desligamento)", "area": "PA-Ações", "confianca": "alta"},
+    {"codigo": "PA41", "descricao": "Alterar dados de contratação ou de desligamento", "area": "PA-Ações", "confianca": "media", "observacao": "A descrição varia entre fontes."},
+    {"codigo": "PA42", "descricao": "Entrada rápida para ações de pessoal", "area": "PA-Ações", "confianca": "alta"},
+    {"codigo": "PA70", "descricao": "Entrada rápida de infotipos", "area": "PA-Dados mestres", "confianca": "alta"},
+    {"codigo": "PA71", "descricao": "Entrada rápida de dados de tempo", "area": "PA-Tempo", "confianca": "alta"},
+    {"codigo": "PA51", "descricao": "Exibir dados de tempo", "area": "PA-Tempo", "confianca": "alta"},
+    {"codigo": "PA61", "descricao": "Manter dados de tempo", "area": "PA-Tempo", "confianca": "alta"},
+    {"codigo": "PT01", "descricao": "Criar horário de trabalho", "area": "PT-Tempo", "confianca": "alta"},
+    {"codigo": "PT02", "descricao": "Alterar horário de trabalho", "area": "PT-Tempo", "confianca": "alta"},
+    {"codigo": "PT03", "descricao": "Exibir horário de trabalho", "area": "PT-Tempo", "confianca": "alta"},
+    {"codigo": "PC00", "descricao": "Menu de folha de pagamento (versões antigas)", "area": "PY-Folha", "confianca": "alta"},
+    {"codigo": "PC00_M99_CALC", "descricao": "Executar o driver de folha internacional (simulação e execução)", "area": "PY-Folha", "confianca": "alta"},
+    {"codigo": "PC00_M99_CLSTR", "descricao": "Exibir resultados da folha", "area": "PY-Folha", "confianca": "alta"},
+    {"codigo": "PC00_M99_CKTO", "descricao": "Exibir contas da folha", "area": "PY-Folha", "confianca": "alta"},
+    {"codigo": "PU00", "descricao": "Eliminar dados pessoais (uso restrito)", "area": "PY-Manutenção", "confianca": "alta"},
+    {"codigo": "PRMD", "descricao": "Manter dados mestres compactos", "area": "PA-Dados mestres", "confianca": "media"},
+    {"codigo": "RPDTRA00", "descricao": "Programa que lista todas as transações de RH (executar via SE38)", "area": "Ferramenta", "confianca": "alta", "observacao": "É um programa, não uma transação direta."}
+  ]
+}
